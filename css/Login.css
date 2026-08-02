@@ -14,8 +14,8 @@
     background-color: #0A0D12;
     height: 500px;
     width: 450px;
-    margin-left: 730px;
-    margin-top: 180px;
+    margin-left: 830px;
+    margin-top: 230px;
     text-align: center;
     border-radius: 60px;
     box-shadow: 0 25px 70px rgba(0, 0, 0, 0.9),
@@ -64,4 +64,64 @@ color: #000000;
     right: 0;
     bottom: 0;
     height: 100vh;
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+    .login{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-position:center;
+    background-size:cover;
+    overflow:hidden;
+}
+
+.container{
+    position:relative;
+    width:82%;
+    max-width:320px;
+    height:400px;
+    margin:0;
+    border-radius:45px;
+    z-index:2;
+}
+
+.logo{
+    width:160px;
+    margin-top:35px;
+}
+
+input{
+    width:240px;
+    height:40px;
+    margin-top:22px;
+    border-radius:20px;
+    font-size:15px;
+}
+
+.input-password{
+    margin-top:20px;
+}
+
+.login-button{
+    width:160px;
+    height:42px;
+    margin-top:30px;
+    border-radius:30px;
+    font-size:17px;
+}
+
+.container2{
+    position:absolute;
+    right:-110px;
+    bottom:0;
+    height:100vh;
+    z-index:1;
+}
+
+.valorat{
+    height:100vh;
+    width:auto;
+}
 }
