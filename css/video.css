@@ -24,3 +24,38 @@
     margin-top:2200px;
     z-index: 4;
 }
+
+@media (max-width: 1200px) {
+    .video {
+        position: relative;
+        margin-top: 20px;
+        padding: 60px 24px 90px;
+    }
+
+    .video-container {
+        position: relative;
+        width: min(100%, 900px);
+        min-height: 420px;
+    }
+
+    .caixa {
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 100%;
+        height: clamp(320px, 52vw, 620px);
+        margin-top: 0;
+        border-radius: 28px;
+    }
+
+    .vazer {
+        position: absolute;
+        left: auto;
+        right: 0;
+        top: auto;
+        bottom: -30px;
+        width: min(260px, 38vw);
+        height: auto;
+        margin-top: 0;
+    }
+}

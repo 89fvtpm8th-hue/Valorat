@@ -32,3 +32,13 @@ h1{
 span{
     color: #FF4556;
 }
+
+@media (max-width: 1200px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        min-height: 100vh;
+    }
+}

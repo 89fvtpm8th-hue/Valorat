@@ -198,3 +198,76 @@
     z-index: 2;
     
 }
+
+@media (max-width: 1200px) {
+    .conteudo {
+        position: relative;
+        overflow: hidden;
+        padding: 40px 24px 120px;
+    }
+
+    .text {
+        position: relative;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .title {
+        font-size: clamp(82px, 15vw, 170px);
+        margin-top: 30px;
+    }
+
+    .subtitle {
+        font-size: clamp(18px, 3vw, 26px);
+        line-height: 1.35;
+    }
+
+    .buttons {
+        position: relative;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 22px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .btn-jogar {
+        width: min(245px, 78vw);
+    }
+
+    .btn-transmisao {
+        font-size: 18px;
+    }
+
+    .cadeira {
+        display: block;
+        width: min(520px, 82vw);
+        height: auto;
+        aspect-ratio: 583 / 623;
+        margin: 55px auto 0;
+    }
+
+    .degrade {
+        height: 360px;
+        margin-top: -260px;
+    }
+
+    .degrade2 {
+        height: 280px;
+    }
+
+    .linha {
+        width: 125vw;
+        height: 110px;
+        left: -28vw;
+        top: -190px;
+    }
+
+    .linha2 {
+        width: 155vw;
+        height: 110px;
+        left: 16vw;
+        top: -10px;
+    }
+}
+
